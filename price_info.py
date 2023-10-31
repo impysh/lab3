@@ -9,7 +9,10 @@ def total_cost_shopping():
     for key in price_list.keys():
         if key in quantity_list:
             # loops for every key in the list - goes thru each fruit and multiplies its respective price and quantity
+
             cost = quantity_list[key] * price_list[key]
+            # basically multipling the price and quantity of each fruit, as the fruits for both lists are in the same order
+
             # using [key], basically lets me retrieve the value associated with that key
             # [value] IS NOT A THING!! [key] is the correct term
             total_cost += cost
