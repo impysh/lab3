@@ -1,3 +1,5 @@
+import pytest
+
 import lab2.lab2 as lab2
 
 # Test find_min_max()
