@@ -2,6 +2,8 @@ import Lab3
 
 print("Test_Lab3")
 
+# The “assert” statement basically returns a Boolean value True or False of the
+# condition asserted or checked is True or False.
 
 def test_bubble_sort_ascending():
     result = []
