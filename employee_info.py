@@ -22,8 +22,14 @@ def calculate_average_salary():
     total = 0
     average = 0
 
-    #add your implementation to calculate here
+    # loop through the employee_data list to find and sum up the total of all the salaries
+    for item in employee_data:
+        total += item['salary']
 
+    # calculate the average
+    if len(employee_data) > 0:
+        # check to see if the list is not empty
+        average = total / len(employee_data)  # find how many records there are in the list to divide the total
 
     return average
 
